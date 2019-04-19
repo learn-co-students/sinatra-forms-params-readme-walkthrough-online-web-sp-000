@@ -10,6 +10,11 @@
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
 
     <!-- Insert Your Form Below -->
-
+    <form method="POST" action="/food"> <!-- connect form to sinatra app, method - what kind of req to server when submitted, post - posts data to server -->
+    <!-- action is to send/post info to route called food -->
+      <p>Your Name: <input type="text" name="name"></p>
+      <p>Your Favorite Food: <input type="text" name="favorite_food"></p>
+      <input type="submit">
+    </form>
   </body>
 </html>
