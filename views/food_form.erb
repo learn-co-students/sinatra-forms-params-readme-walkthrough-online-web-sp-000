@@ -10,11 +10,11 @@
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
 
     <!-- Insert Your Form Below -->
-    <form method="post">
+    <form method="POST" action="/food"> <!--post, action required-->
       <label for="name">Name</label>
-      <input type="text" id="name"><br>
-      <label for="favorite_food">Food</label>
-      <input type="text" id="favorite_food"><br>
+      <input type="text" name="name" id="name"><br> <!--name required-->
+      <label for="favorite_food">Favorite Food</label>
+      <input type="text" name="favorite_food" id="favorite_food"><br> <!--name required-->
       <input type="submit" text="Submit">
     </form>
 
