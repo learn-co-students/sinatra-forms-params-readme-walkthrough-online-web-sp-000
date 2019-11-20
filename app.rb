@@ -7,5 +7,8 @@ class App < Sinatra::Base
   end
 
   # Add your post route and action below
-
+  #route to receive the data from the HTML form
+  post '/food' do
+    "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
+  end
 end
